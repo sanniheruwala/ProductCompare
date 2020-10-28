@@ -26,3 +26,19 @@ docker-compose up -d
 
 ## Go to web app
 > localhost:8051
+
+## Project structure
+```
+ProductCompare
+├── Db                            - Database setup.      
+│   └── init.sql                  - Table schemas.     
+├── ProductCompareService         - FastAPI webservice 
+│   ├── Dockerfile                - Commands to run API
+│   ├── ProductCompareFast.py     - Main app
+│   └── requirements.txt          - Dependencies 
+├── ProductCompareWeb             - Streamlit web UI
+│   ├── Dockerfile                - Commands to run UI
+│   ├── ProductCompareFast.py     - Main app
+│   └── requirements.txt          - Dependencies               
+└── docker-compose.yml            - Container setup        
+```
