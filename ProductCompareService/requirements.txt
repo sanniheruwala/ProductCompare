@@ -1,0 +1,10 @@
+pandas
+streamlit
+requests_toolbelt
+requests
+pymysql
+fastapi
+sqlalchemy
+uvicorn
+python-multipart
+cryptography

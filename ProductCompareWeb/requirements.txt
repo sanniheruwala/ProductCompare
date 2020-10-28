@@ -1,0 +1,7 @@
+pandas
+streamlit
+requests_toolbelt
+requests
+pymysql
+sqlalchemy
+python-multipart
