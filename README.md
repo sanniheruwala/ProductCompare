@@ -1,14 +1,16 @@
 # ProductCompare
 Product compare using fastapi, streamlit and docker. It provides support for batch load of product files and also demonstration of streamlit UI as a data app.
 
-# Steps to run App
+This app uses docker. Make sure it is available in you local machine.
+
+# Installation
 #### Step 1 : Git clone
 ```
 git clone https://github.com/sanniheruwala/ProductCompare.git
 ```
 #### Step 2 : Go to root directory
 ```
-cd ProductCompare
+cd ProductCompare/
 ```
 #### Step 3 : Checkout master branch
 ```
@@ -31,8 +33,7 @@ Application will be available on `localhost` in your browser.
 
 ## To access backend API/ FastAPI - Swagger UI
 > http://localhost:8000/docs
-
-
+> http://localhost:8000/redoc
 
 ## Project structure
 ```
