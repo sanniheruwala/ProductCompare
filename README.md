@@ -34,7 +34,6 @@ docker-compose up -d
 Application will be available on `localhost` in your browser.
 
 # Bingo !!! Your application is running.
-
 ## Go to web app
 > http://localhost:8501/
 
