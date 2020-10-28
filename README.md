@@ -3,7 +3,7 @@ Product compare using fastapi, streamlit and docker. It provides support for bat
 
 This app uses docker. Make sure it is available in you local machine.
 
-[![Alt text](https://img.youtube.com/vi/VID/0.jpg)](https://www.youtube.com/watch?v=VID)
+[![Alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/Demo.gif)
 
 
 # Installation
