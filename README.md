@@ -22,10 +22,15 @@ docker-compose build
 ```
 docker-compose up -d
 ```
-### Bingo !!! Your application is running.
+Application will be available on `localhost` in your browser.
+
+# Bingo !!! Your application is running.
 
 ## Go to web app
 > http://localhost:8501/
+
+## To access backend API/ FastAPI - Swagger UI
+> http://localhost:8000/docs
 
 
 
