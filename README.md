@@ -25,7 +25,9 @@ docker-compose up -d
 ### Bingo !!! Your application is running.
 
 ## Go to web app
-> localhost:8051
+> http://localhost:8501/
+
+
 
 ## Project structure
 ```
