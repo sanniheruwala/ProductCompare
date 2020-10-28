@@ -85,5 +85,40 @@ root
 |walmart's 20pcs M...|  7.99|               4.7| Hobbies|These delicate mo...|good product Five...|http://www.walmar...|walmart|
 +--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
 ```
+## Performace - Flask vs FastAPI
+```
+# FastAPI
+Concurrency Level:      500
+Time taken for tests:   0.577 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      720000 bytes
+HTML transferred:       95000 bytes
+Requests per second:    8665.48 [#/sec] (mean)
+Time per request:       57.700 [ms] (mean)
+Time per request:       0.115 [ms] (mean, across all concurrent requests)
+Transfer rate:          1218.58 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    6   4.5      6      30
+Processing:     6   49  21.7     45     126
+Waiting:        1   42  19.0     39     124
+Total:         12   56  21.8     53     127
+
+Percentage of the requests served within a certain time (ms)
+  50%     53
+  66%     64
+  75%     69
+  80%     73
+  90%     81
+  95%     98
+  98%    112
+  99%    116
+ 100%    127 (longest request)
+```
+
+
+
 
 
