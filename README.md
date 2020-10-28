@@ -62,7 +62,7 @@ ProductCompare
 └── docker-compose.yml            - Container setup        
 ```
 
-## Batch load using csv files
+## Data requirement - Batch load
 For batch load data has to be inline with following schema.
 ```
 root
@@ -78,7 +78,7 @@ root
 +--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
 |        product_name| price|            rating|category| product_description|    customer_reviews|                 url|website|
 +--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
-|walmart's Hornby ...|  4.42|4.6000000000000005| Hobbies|Product Descripti...|good product Wort...|http://www.walmar...|walmart|
+|walmart's Hornby ...|  4.42|               4.6| Hobbies|Product Descripti...|good product Wort...|http://www.walmar...|walmart|
 |walmart's FunkyBu...| 17.99|               4.2| Hobbies|Size Name:Large F...|good product Four...|http://www.walmar...|walmart|
 |walmart's CLASSIC...| 10.99|               3.6| Hobbies|BIG CLASSIC TOY T...|good product **Hi...|http://www.walmar...|walmart|
 |walmart's Hornby ...| 33.19|               4.4| Hobbies|Product Descripti...|good product Birt...|http://www.walmar...|walmart|
