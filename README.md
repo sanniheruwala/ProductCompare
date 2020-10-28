@@ -85,9 +85,42 @@ root
 |walmart's 20pcs M...|  7.99|               4.7| Hobbies|These delicate mo...|good product Five...|http://www.walmar...|walmart|
 +--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
 ```
-## Performace - Flask vs FastAPI
+# Performace - Flask vs FastAPI
+
+### Flask
 ```
-# FastAPI
+Concurrency Level:      500
+Time taken for tests:   27.827 seconds
+Complete requests:      5000
+Failed requests:        0
+Total transferred:      830000 bytes
+HTML transferred:       105000 bytes
+Requests per second:    179.68 [#/sec] (mean)
+Time per request:       2782.653 [ms] (mean)
+Time per request:       5.565 [ms] (mean, across all concurrent requests)
+Transfer rate:          29.13 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0   87 293.2      0    3047
+Processing:    14 1140 4131.5    136   26794
+Waiting:        1 1140 4131.5    135   26794
+Total:         14 1227 4359.9    136   27819
+
+Percentage of the requests served within a certain time (ms)
+  50%    136
+  66%    148
+  75%    179
+  80%    198
+  90%    295
+  95%   7839
+  98%  14518
+  99%  27765
+ 100%  27819 (longest request)
+ ```
+
+### FastAPI
+```
 Concurrency Level:      500
 Time taken for tests:   0.577 seconds
 Complete requests:      5000
@@ -118,7 +151,14 @@ Percentage of the requests served within a certain time (ms)
  100%    127 (longest request)
 ```
 
+### Total results
+```
+Flask: Time taken for tests: 27.827 seconds
 
+FastAPI - Uvicorn: Time taken for tests: 1.562 seconds
+
+FastAPI - Uvicorn Workers: Time taken for tests: 0.577 seconds
+```
 
 
 
