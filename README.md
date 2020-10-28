@@ -3,7 +3,7 @@ Product compare using fastapi, streamlit and docker. It provides support for bat
 
 This app uses docker. Make sure it is available in you local machine.
 
-[![Alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/Demo.gif)
+![Alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/Demo.gif)
 
 
 # Installation
@@ -61,3 +61,29 @@ ProductCompare
 │   └── requirements.txt          - Dependencies               
 └── docker-compose.yml            - Container setup        
 ```
+
+## Batch load using csv files
+For batch load data has to be inline with following schema.
+```
+root
+ |-- product_name: string (nullable = true)
+ |-- price: string (nullable = true)
+ |-- rating: string (nullable = true)
+ |-- category: string (nullable = true)
+ |-- product_description: string (nullable = true)
+ |-- customer_reviews: string (nullable = true)
+ |-- url: string (nullable = true)
+ |-- website: string (nullable = true)
+
++--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
+|        product_name| price|            rating|category| product_description|    customer_reviews|                 url|website|
++--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
+|walmart's Hornby ...|  4.42|4.6000000000000005| Hobbies|Product Descripti...|good product Wort...|http://www.walmar...|walmart|
+|walmart's FunkyBu...| 17.99|               4.2| Hobbies|Size Name:Large F...|good product Four...|http://www.walmar...|walmart|
+|walmart's CLASSIC...| 10.99|               3.6| Hobbies|BIG CLASSIC TOY T...|good product **Hi...|http://www.walmar...|walmart|
+|walmart's Hornby ...| 33.19|               4.4| Hobbies|Product Descripti...|good product Birt...|http://www.walmar...|walmart|
+|walmart's 20pcs M...|  7.99|               4.7| Hobbies|These delicate mo...|good product Five...|http://www.walmar...|walmart|
++--------------------+------+------------------+--------+--------------------+--------------------+--------------------+-------+
+```
+
+
