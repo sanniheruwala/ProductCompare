@@ -39,7 +39,6 @@ Application will be available on `localhost` in your browser.
 
 ## To access backend API/ FastAPI - Swagger UI
 > http://localhost:8000/docs
-> http://localhost:8000/redoc
 
 ![alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/Swagger.png)
 
