@@ -24,6 +24,10 @@ docker-compose build
 ```
 docker-compose up -d
 ```
+
+![alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/container.png)
+![alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/image.png)
+
 Application will be available on `localhost` in your browser.
 
 # Bingo !!! Your application is running.
@@ -31,11 +35,13 @@ Application will be available on `localhost` in your browser.
 ## Go to web app
 > http://localhost:8501/
 
+![alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/UI.png)
+
 ## To access backend API/ FastAPI - Swagger UI
 > http://localhost:8000/docs
-![alt text](http://url/to/img.png)
-> http://localhost:8000/redoc
-![alt text](http://url/to/img.png)
+
+![alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/Swagger.png)
+
 
 ## Project structure
 ```
