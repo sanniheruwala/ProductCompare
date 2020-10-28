@@ -33,7 +33,9 @@ Application will be available on `localhost` in your browser.
 
 ## To access backend API/ FastAPI - Swagger UI
 > http://localhost:8000/docs
+![alt text](http://url/to/img.png)
 > http://localhost:8000/redoc
+![alt text](http://url/to/img.png)
 
 ## Project structure
 ```
