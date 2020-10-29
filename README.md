@@ -2,6 +2,9 @@
 Product compare using fastapi, streamlit and docker. It provides support for batch load of product files and also demonstration of streamlit UI as a data app.
 
 This app uses docker. Make sure it is available in you local machine.
+You have given two files for test in master branch.
+First upload both files using batch load.
+Then search product name and category to compare.
 
 ![Alt text](https://github.com/sanniheruwala/ProductCompare/blob/master/images/Demo.gif)
 
